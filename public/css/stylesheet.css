@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .logo {
+    float: left;
+    display: block;
+    color: #273953;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    max-height: 48px;
+    max-width: 48px;
+  }
+  
+  div.form-row {
+    text-align: center;
+  }
+  
+  a {
+    color:#0055c4;
+  }
+  
+  a:hover {
+    color:#006eff;
+  }
+  
+  label {
+    font-family: "Quicksand", sans-serif;
+    color: #fff;
+  }
+  
+  .crd-guild {
+    border: 5px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    box-sizing: content-box;
+    text-align: center;
+    display: grid;
+    grid-row: auto;
+    width: 50%;
+    margin: 15px;
+  }
+  
+  .crd-guild > h1 {
+    font-size: 2em !important;
+  }
+  
+  .crd-guild-invite {
+    width: 30%;
+    position: relative;
+    bottom: 100px;
+  }
+  
+  .crd-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .crd-container::after {
+    clear: both;
+    content: "";
+  }
+  
+  .btn {
+    background-color: #2c2f33;
+    color: #4caf25;
+    font-size: 15px;
+    transition-duration: 0.5s;
+    border: 2px solid #4caf25;
+    border-radius: 8px;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 5px;
+  }
+  
+  .buttons {
+    text-align: center;
+  }
+  
+  button {
+    font-size: 18px;
+    width: max-content, 30%;
+    background-color: #012f6e;
+    border-radius: 10px;
+    border-color:#006eff;
+    color: white;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #006eff;
+    border-radius: 10px;
+    border-color: #012f6e;
+    color: white;
+  }
+  
+  .btn:hover {
+    background-color: #4caf25;
+    color: black;
+    cursor: pointer;
+    border: 2px solid #6cf834;
+  }
+  
+  h2 {
+    font-size: 250%;
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: "Fredoka One";
+    text-align: center;
+    font-size: 300%;
+    color: #fff;
+  }
+  
+  .description {
+    color: #fff;
+    text-align: center;
+    font-family: "Fredoka One";
+  }
+  
+  .avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #4caf50;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    -webkit-transform: -webkit-transform 0.8s ease-in-out;
+    transition: transform 0.8s ease-in-out;
+  }
+  
+  .avatar:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  
+  .devicon {
+    width: 128px; 
+    height: 128px; 
+    border: 3px solid #006eff; 
+    border-radius: 50%; 
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    -webkit-transform: -webkit-transform 0.8s ease-in-out;
+    transition: transform 0.8s ease-in-out;
+  }
+  
+  .devicon:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  
+  p,
+  span {
+    color: #fff;
+  }
+  
+  body {
+    background-color: #273953;
+  }
+  
+  h3 {
+    color: #fff;
+    font-family: "Knewave";
+    text-align: center;
+    font-size: 150%;
+  }
+  
+  h4 {
+    color: rgb(138, 138, 138);
+    font-family: "Knewave";
+    text-align: center;
+  }
+  
+  hr {
+    border-color: #006eff;
+  }
+  
+  .command-table {
+    width: 100%;
+    background-color: #012f6e;
+  }
+  
+  footer {
+    background-color: #001d46;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: max-content;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  code {
+    background-color: rgb(60, 64, 68);
+    color: #fff;
+  }
+  
+  ul > li > p {
+    text-align: center;
+  }
+  
+  
+   /* Add a black background color to the top navigation */
+   .topnav {
+    background-color: #273953;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #006eff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #006eff;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #006eff;
+    color: black;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  } 
+  
+  li {
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+   @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  
